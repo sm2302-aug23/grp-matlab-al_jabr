@@ -1,4 +1,4 @@
-function plotWord(inputString)
+function writeWord(inputString)
 % Initialize figure to plot letters
 figure;
 hold on;
@@ -100,5 +100,3 @@ grid on;
     
     hold off;
 end
-
-
