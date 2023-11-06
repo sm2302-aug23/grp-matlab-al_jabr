@@ -1,4 +1,4 @@
-function writeWord(inputString)
+function writeWord(word)
 % Initialize figure to plot letters
 figure;
 hold on;
@@ -7,10 +7,10 @@ hold on;
 % Initially, endposx = 0 as it starts from x = 0
 endposx = 0;
 
-inputString = lower(inputString);
+word = lower(word);
 
-for i = 1:length(inputString)
-    letter = inputString(i);
+for i = 1:length(word)
+    letter = word(i);
 
 
     switch letter
