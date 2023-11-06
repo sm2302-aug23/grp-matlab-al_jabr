@@ -1,5 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/i8q0vJZ5)
-# Group Assignment (MATLAB)
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/i8q0vJZ5) \# Group Assignment (MATLAB)
 
 This repository contains instructions for SM-2302 MATLAB group assignment.
 
@@ -13,7 +12,7 @@ Read [`notes.md`](notes.md) for some advice on good MATLAB programming style and
 
 ## What is Spline Interpolation?
 
-
+Spline interpolation methods create smooth and continuous curves by dividing the data range into smaller intervals and fitting separate piece-wise polynomial functions (splines) to each interval. These splines join together at the intersection points so the entire curve looks smooth and natural.
 
 # Table of Contents
 
@@ -24,9 +23,10 @@ Read [`notes.md`](notes.md) for some advice on good MATLAB programming style and
 ## Function to write cursive names
 
 ## Improvements
-- spacing 
-- capital letters
-- special characters
-- connecting the letters
+
+-   spacing
+-   capital letters
+-   special characters
+-   connecting the letters
 
 ## Spline interpolation of Thanks for reading
