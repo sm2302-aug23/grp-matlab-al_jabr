@@ -57,7 +57,7 @@ for i = 1:length(inputString)
                 x = [2.4 2.3 3 3.7 3.95 3.8 4.05 5.15 5.8] + endposx;
                 y = [3.8 2.75 3.5 3.5 3.15 2.2 2.05 2.7 3.5];
             case 'o'
-                x = [3.1 3.8 4.1 3.75 3.2 2.95 3 3.7 4 4.05 4.85] + endposx;
+                x = [2.8 3.5 3.8 3.45 2.9 2.65 2.7 3.4 3.7 3.75 4.55] + endposx;
                 y = [3.15 3.75 3.5 2.4 2.05 2.2 2.9 3.8 3.7 2.95 2.9];
             case 'p'
                 x = [2.9 4.2 3.75 1.75 3.1 4.3 4.95 4.65 3.5 3.3 4.5 6.05] + endposx;
@@ -87,8 +87,8 @@ for i = 1:length(inputString)
                 x = [2.95 4.20 3.8 2.9 3.6 3.5 3.45 3.9 5.1] + endposx;
                 y = [2.10 3.70 3.4 2.2 3.0 3.7 3.30 2.3 2.2];  
             case 'y'
-                x = [3.1 2.6 4.6 4.4 2.8 2.5 4.6 6.0] + endposx;
-                y = [3.8 2.9 3.7 3.8 0.5 0.6 2.9 3.6];  
+                x = [3.1 2.6 4.6 4.4 2.8 2.5 4.6] + endposx;
+                y = [3.8 2.9 3.7 3.8 0.5 0.6 2.9];  
             case 'z'
                 x = [3.1 4.2 3.3 3.2 4.05 3.45 3.3 4.7 5.8] + endposx;
                 y = [3.4 4.0 2.2 2.3 2.15 0.10 0.3 2.5 3.3];                
@@ -106,7 +106,7 @@ for i = 1:length(inputString)
     plot(xx, yy, 'k', 'Linewidth', 1.5);
 
     % Update the end position for the next letter
-    endposx = max(xx) - 3;
+    endposx = max(xx) - 2.5;
 end
 
 % Set plot properties
