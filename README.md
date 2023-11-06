@@ -15,13 +15,15 @@ Spline interpolation methods create smooth and continuous curves by dividing the
 
 ## Spline your name {#spline-your-name}
 
-A fun and interesting way to use spline! 
+A fun and interesting way to use spline!
 
 ![](./ournames.png)
 
 ## Steps to using Spline Interpolation to write cursive names {#steps-to-using-spline-interpolation-to-write-cursive-names}
 
 ## Function to write cursive names {#function-to-write-cursive-names}
+
+This code defines a MATLAB function `plotWord.m` that takes an input string, and outputs the corresponding cursive-written word(s). The input string is converted to lowercase for consistent plotting. The code iterates through each character in the input string and uses a "switch-case" statement to define the coordinates for the corresponding cursive letters. The primary purpose of this code is to generate a plot of cursive letters based on the input string using spline interpolation.
 
 Below is the code for our function:
 
