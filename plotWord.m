@@ -1,24 +1,3 @@
-![](./spline_interpolation_banner.png)
-
-# Spline Interpolation
-
-## What is Spline Interpolation?
-
-Spline interpolation methods create smooth and continuous curves by dividing the data range into smaller intervals and fitting separate piece-wise polynomial functions (splines) to each interval. These splines join together at the intersection points so the entire curve looks smooth and natural.
-
-## Spline your name
-
-A fun and interesting way to use spline!
-
-![](./ournames.png)
-
-## Function to write cursive names
-
-This code defines a MATLAB function `plotWord.m` that takes an input string, and outputs the corresponding cursive-written word(s). The input string is converted to lowercase for consistent plotting. The code iterates through each character in the input string and uses a "switch-case" statement to define the coordinates for the corresponding cursive letters. The primary purpose of this code is to generate a plot of cursive letters based on the input string using spline interpolation.
-
-Below is the code for our function:
-
-``` matlab
 function plotWord(inputString)
 % Initialize figure to plot letters
 figure;
@@ -139,17 +118,5 @@ grid on;
     
     hold off;
 end
-```
 
-Example: ![](./Spline.png)
 
-## Improvements
-
--   spacing
--   capital letters
--   special characters
--   connecting the letters
-
-![](./thank%20you.png)
-
-***Thank you for reading me!***
